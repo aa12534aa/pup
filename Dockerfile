@@ -2,7 +2,7 @@
 FROM python:3.10-slim
 # Ustawienie katalogu roboczego na /app
 WORKDIR /app
-# Skopiowanie pliku requirements.txt do obrazu
+# Skopiowanie pliku requirements.txt do obrazu.
 COPY requirements.txt .
 # Instalacja zależności
 RUN pip install -r requirements.txt
